@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 2,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.exs?$",
+                "isAsync": false,
+                "cmd": "cd ${workspaceRoot} && mix format ${file}"
+            }
+        ]
+    }
+}
